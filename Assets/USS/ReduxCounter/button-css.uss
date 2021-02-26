@@ -1,0 +1,4 @@
+.operationButton {
+    font-size: 36px;
+    -unity-font: url('/Assets/PixelOperator.ttf');
+}

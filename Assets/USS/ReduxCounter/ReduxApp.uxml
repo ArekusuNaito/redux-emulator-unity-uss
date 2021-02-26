@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="button-css.uss" />
+    <ui:VisualElement name="UIContainer" style="flex-direction: column; flex-shrink: 0; flex-grow: 0;">
+        <ui:VisualElement name="imageContainer" style="background-image: none; flex-shrink: -1; flex-grow: 0; -unity-background-scale-mode: stretch-to-fill; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; overflow: visible; opacity: 1; flex-direction: row; justify-content: center; align-items: center; height: 20%;">
+            <ui:VisualElement style="background-image: none; width: 416px; height: 416px; -unity-background-scale-mode: scale-to-fit; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; -unity-background-image-tint-color: rgb(82, 138, 204);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="counterContainer" style="flex-direction: row; align-items: center; justify-content: center; height: 25%; flex-shrink: 0; flex-grow: 1;">
+            <ui:Button text="+" display-tooltip-when-elided="true" name="addButton" class="operationButton" style="flex-grow: 0; max-width: initial; max-height: initial; font-size: 36px; -unity-font: url(&apos;/Assets/PixelOperator.ttf&apos;);" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="counterLabel" style="-unity-font: url(&apos;/Assets/PixelOperator8.ttf&apos;); font-size: 44px;" />
+            <ui:Button text="-" display-tooltip-when-elided="true" name="substractButton" class="operationButton" style="flex-grow: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="thirdRow" style="flex-shrink: 0; flex-direction: row; justify-content: center; align-items: center; -unity-text-align: middle-center; white-space: normal; color: rgb(0, 0, 0); height: 10%;">
+            <ui:TextField picking-mode="Ignore" value="filler text" text="5" name="inputAmount" max-length="3" readonly="true" style="-unity-font: url(&apos;/Assets/PixelOperator8.ttf&apos;);" />
+            <ui:Button text="Add Amount" display-tooltip-when-elided="true" name="addAmountButtonID" style="-unity-font: url(&apos;/Assets/PixelOperator8.ttf&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

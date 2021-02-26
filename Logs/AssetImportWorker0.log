@@ -1,0 +1,1462 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/dev/unity/UI Builder USS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50969
+Successfully changed project path to: C:/dev/unity/UI Builder USS
+C:/dev/unity/UI Builder USS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 89.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/dev/unity/UI Builder USS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Vendor:   
+    VRAM:     8081 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003522 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.680 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003832 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.414 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Unloading 3164 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.9 MB.
+System memory in use after: 132.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3613.
+Total: 3.939600 ms (FindLiveObjects: 0.557700 ms CreateObjectMapping: 0.348000 ms MarkObjects: 2.935800 ms  DeleteObjects: 0.096500 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-Italic.ttf
+  artifactKey: Guid(87c99649ff4575a41801e7ec79f6b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-Italic.ttf using Guid(87c99649ff4575a41801e7ec79f6b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34e84dae2d4c25ca8d45ca990cfb0dd') in 0.298443 seconds
+  Import took 0.304781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Packages/com.unity.ui/PackageResources/Images/Roboto-Regular.ttf
+  artifactKey: Guid(5f10eeddc718f4dab9f39268e94bc0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ui/PackageResources/Images/Roboto-Regular.ttf using Guid(5f10eeddc718f4dab9f39268e94bc0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8737c0c15cfb2fa7216b3c5c109d907') in 0.023940 seconds
+  Import took 0.029855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Packages/com.paladin.virtues/Runtime/Plugins/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.paladin.virtues/Runtime/Plugins/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382a95bb1100f0e49ccce7a2c4e77dbe') in 0.024139 seconds
+  Import took 0.030127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-SemiBold.ttf
+  artifactKey: Guid(e6175407c8471c648bfd129c6581934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-SemiBold.ttf using Guid(e6175407c8471c648bfd129c6581934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a92cf53c7d1696ddd5402add199e21c') in 0.017884 seconds
+  Import took 0.023624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-Small.ttf
+  artifactKey: Guid(7a066cc6ac67325479a605cd9672e4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-Small.ttf using Guid(7a066cc6ac67325479a605cd9672e4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950570bbaccd34c565f6b176fc76c86e') in 0.020857 seconds
+  Import took 0.026574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-Regular.ttf
+  artifactKey: Guid(823747998f851ab4b9db609b7bade414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-Regular.ttf using Guid(823747998f851ab4b9db609b7bade414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07f5a7202dc1836056d54987b9365f1') in 0.018219 seconds
+  Import took 0.026268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-SemiBoldItalic.ttf
+  artifactKey: Guid(c274643671f661b46b39f28d2a911217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-SemiBoldItalic.ttf using Guid(c274643671f661b46b39f28d2a911217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e1fccf8aae3cdb0c6916cb6fa4885a') in 0.018793 seconds
+  Import took 0.026200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/UI Toolkit/Resources/Fonts & Materials/LiberationSans.ttf
+  artifactKey: Guid(189c84d4bdcba6d449b66c25aad92981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/Resources/Fonts & Materials/LiberationSans.ttf using Guid(189c84d4bdcba6d449b66c25aad92981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46717740bbc2eaea9021013ea88097fa') in 0.018900 seconds
+  Import took 0.024705 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003645 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3660.
+Total: 3.299500 ms (FindLiveObjects: 0.374900 ms CreateObjectMapping: 0.213500 ms MarkObjects: 2.678100 ms  DeleteObjects: 0.031300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 821.604931 seconds.
+  path: Assets/Samples/UI Builder/1.0.0-preview.12/OptionsPanel
+  artifactKey: Guid(fdaacc5c8ba5a1547b0b8bf3b4a8fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Builder/1.0.0-preview.12/OptionsPanel using Guid(fdaacc5c8ba5a1547b0b8bf3b4a8fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8858f72dfbe2accf80a524023b4c68') in 0.016141 seconds
+  Import took 0.023815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.972776 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples
+  artifactKey: Guid(3fa1a75c89748974dbea7a90cd4c7465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples using Guid(3fa1a75c89748974dbea7a90cd4c7465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e8eeca624a3fe7d5dd87b5a02f1099') in 0.010103 seconds
+  Import took 0.017233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.951201 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Anton.ttf
+  artifactKey: Guid(a3f9edbcc0a2c49a49fbf48fdd5e6250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Anton.ttf using Guid(a3f9edbcc0a2c49a49fbf48fdd5e6250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dc767981cea281aeffc3edee4d543d') in 0.103633 seconds
+  Import took 0.110157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Bangers.ttf
+  artifactKey: Guid(1a9f6da22a83344f4897da41684bc2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Bangers.ttf using Guid(1a9f6da22a83344f4897da41684bc2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15c02036808b3acecd463015af7d8df') in 0.017395 seconds
+  Import took 0.023204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/LiberationSans.ttf
+  artifactKey: Guid(a0fa3471145eb45189c411a3e3af44cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/LiberationSans.ttf using Guid(a0fa3471145eb45189c411a3e3af44cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cee8c0f1d223aaceddbb535c1b9739') in 0.013139 seconds
+  Import took 0.018959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Oswald-Bold.ttf
+  artifactKey: Guid(44615f5cd536b4b3dbd782ec70830587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Oswald-Bold.ttf using Guid(44615f5cd536b4b3dbd782ec70830587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2863a4a48cacda7ba384e19ec07717') in 0.017681 seconds
+  Import took 0.023784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Anton.ttf
+  artifactKey: Guid(a3f9edbcc0a2c49a49fbf48fdd5e6250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Anton.ttf using Guid(a3f9edbcc0a2c49a49fbf48fdd5e6250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dc767981cea281aeffc3edee4d543d') in 0.012782 seconds
+  Import took 0.018651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Electronic Highway Sign.TTF
+  artifactKey: Guid(d682fd0cb857a413eb27eae45722ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Electronic Highway Sign.TTF using Guid(d682fd0cb857a413eb27eae45722ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0a0a1243bee872053e43f845941b7d') in 0.020821 seconds
+  Import took 0.026428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Roboto-Bold.ttf
+  artifactKey: Guid(3482c8e71138c426090ca4a62ce8419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Roboto-Bold.ttf using Guid(3482c8e71138c426090ca4a62ce8419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8ab6da246ce0f1c7e941741687cf8d') in 0.018226 seconds
+  Import took 0.025089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Electronic Highway Sign.TTF
+  artifactKey: Guid(d682fd0cb857a413eb27eae45722ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Electronic Highway Sign.TTF using Guid(d682fd0cb857a413eb27eae45722ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0a0a1243bee872053e43f845941b7d') in 0.013272 seconds
+  Import took 0.019439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005326 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Roboto-Bold.ttf
+  artifactKey: Guid(3482c8e71138c426090ca4a62ce8419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/Fonts & Materials/Roboto-Bold.ttf using Guid(3482c8e71138c426090ca4a62ce8419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8ab6da246ce0f1c7e941741687cf8d') in 0.013816 seconds
+  Import took 0.020078 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003590 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.220 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3693.
+Total: 3.398800 ms (FindLiveObjects: 0.376600 ms CreateObjectMapping: 0.240300 ms MarkObjects: 2.754400 ms  DeleteObjects: 0.025800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004497 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.434 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3696.
+Total: 5.605500 ms (FindLiveObjects: 0.570300 ms CreateObjectMapping: 0.311300 ms MarkObjects: 4.687400 ms  DeleteObjects: 0.034500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1320.785799 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47cf443bddc682ac2de11ea429897ce') in 0.018160 seconds
+  Import took 0.026050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.524283 seconds.
+  path: Assets/FiraCode-Regular.woff
+  artifactKey: Guid(a2c7d7ef77e91a846abf336172a2f90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FiraCode-Regular.woff using Guid(a2c7d7ef77e91a846abf336172a2f90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6039a090ce65c2631f98c31f811f10a2') in 0.021355 seconds
+  Import took 0.027331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.601652 seconds.
+  path: Assets/PixelOperator.ttf
+  artifactKey: Guid(72c47d9a0ce7be84c8f9a8a90c6dbfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelOperator.ttf using Guid(72c47d9a0ce7be84c8f9a8a90c6dbfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4460c837e6edfc5ffd61c1591d3427f') in 0.093187 seconds
+  Import took 0.099883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/PixelOperator8.ttf
+  artifactKey: Guid(5ad2a2541404fe141a173215fedad811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelOperator8.ttf using Guid(5ad2a2541404fe141a173215fedad811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0766ab529a7af9b34db9e7a268a49041') in 0.017227 seconds
+  Import took 0.023063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011760 seconds.
+  path: Assets/PixelOperator.ttf
+  artifactKey: Guid(72c47d9a0ce7be84c8f9a8a90c6dbfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelOperator.ttf using Guid(72c47d9a0ce7be84c8f9a8a90c6dbfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4460c837e6edfc5ffd61c1591d3427f') in 0.014987 seconds
+  Import took 0.021195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003644 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.271 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.4 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3701.
+Total: 3.964100 ms (FindLiveObjects: 0.633000 ms CreateObjectMapping: 0.385000 ms MarkObjects: 2.914900 ms  DeleteObjects: 0.028800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.186479 seconds.
+  path: Assets/nk57-monospace-no-lt.ttf
+  artifactKey: Guid(96c79f27d8f26924684f75b0f3112dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nk57-monospace-no-lt.ttf using Guid(96c79f27d8f26924684f75b0f3112dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f421326568b44e71465bfffe60a5c966') in 0.098267 seconds
+  Import took 0.105094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.176180 seconds.
+  path: Assets/nk57-monospace-no-lt.ttf
+  artifactKey: Guid(96c79f27d8f26924684f75b0f3112dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nk57-monospace-no-lt.ttf using Guid(96c79f27d8f26924684f75b0f3112dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16c5e91992b648b260d0e231ffa3774') in 0.015345 seconds
+  Import took 0.022093 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003661 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.211 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.4 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3706.
+Total: 5.536800 ms (FindLiveObjects: 0.563400 ms CreateObjectMapping: 0.354400 ms MarkObjects: 4.586300 ms  DeleteObjects: 0.031000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 367.129239 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(38e593cdb2029dd458adb315e969469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(38e593cdb2029dd458adb315e969469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53509cc3c7e4aca6f145cd1a6cc263cf') in 0.016783 seconds
+  Import took 0.024327 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003604 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 133.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3697.
+Total: 3.821500 ms (FindLiveObjects: 0.554000 ms CreateObjectMapping: 0.269700 ms MarkObjects: 2.962100 ms  DeleteObjects: 0.034000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003718 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3700.
+Total: 3.609400 ms (FindLiveObjects: 0.552700 ms CreateObjectMapping: 0.297800 ms MarkObjects: 2.729200 ms  DeleteObjects: 0.028100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003606 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 133.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3703.
+Total: 4.857600 ms (FindLiveObjects: 0.583000 ms CreateObjectMapping: 0.344800 ms MarkObjects: 3.886800 ms  DeleteObjects: 0.040900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.224348 seconds.
+  path: Assets/USS/ReduxCounter/button-css.uss
+  artifactKey: Guid(427dbc5dfe89bef438a014e99e72a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxCounter/button-css.uss using Guid(427dbc5dfe89bef438a014e99e72a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b0d45633b2e08eaebaadf20ba651f0') in 0.032256 seconds
+  Import took 0.039443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008119 seconds.
+  path: Assets/USS/ReduxCounter/button-css.uss
+  artifactKey: Guid(427dbc5dfe89bef438a014e99e72a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxCounter/button-css.uss using Guid(427dbc5dfe89bef438a014e99e72a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b0d45633b2e08eaebaadf20ba651f0') in 0.006475 seconds
+  Import took 0.013108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.988935 seconds.
+  path: Assets/USS/ReduxCounter/ReduxApp.uxml
+  artifactKey: Guid(ba2c0f270e9c6ee4d8e1208a72425ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxCounter/ReduxApp.uxml using Guid(ba2c0f270e9c6ee4d8e1208a72425ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8a705bd41229862ed12a91bf650f37') in 0.021125 seconds
+  Import took 0.027367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.226561 seconds.
+  path: Assets/USS/ReduxCounter
+  artifactKey: Guid(d58d2e67d59e69b4183650d209bafea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxCounter using Guid(d58d2e67d59e69b4183650d209bafea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a26163e3ceafe9ca84bc4ba09b4c2b') in 0.009698 seconds
+  Import took 0.015860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.104921 seconds.
+  path: Assets/USS/ReduxCounter/CounterApp.uxml
+  artifactKey: Guid(fa767d831c166114fa60b09b3779ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxCounter/CounterApp.uxml using Guid(fa767d831c166114fa60b09b3779ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522d2a5045e8ef77683847aa401b97bf') in 0.011696 seconds
+  Import took 0.019847 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003683 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3718.
+Total: 3.923800 ms (FindLiveObjects: 0.606400 ms CreateObjectMapping: 0.292400 ms MarkObjects: 2.997100 ms  DeleteObjects: 0.026000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.102611 seconds.
+  path: Assets/UI Toolkit/SamplePanelSettings.asset
+  artifactKey: Guid(815f3d4915f674831b84679779c289a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/SamplePanelSettings.asset using Guid(815f3d4915f674831b84679779c289a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae83bcd50577db1a88ed22af2952bf50') in 0.017108 seconds
+  Import took 0.025220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.699036 seconds.
+  path: Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/SampleRenderTexturePanelAsset.asset
+  artifactKey: Guid(8afa9c47d854d074a88df775459b57b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit/1.0.0-preview.14/UI Toolkit Examples/Resources/SampleRenderTexturePanelAsset.asset using Guid(8afa9c47d854d074a88df775459b57b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74fb88d8a5dfec212786ae3d9e3992d') in 0.009624 seconds
+  Import took 0.015875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.237218 seconds.
+  path: Assets/Samples/UI Toolkit
+  artifactKey: Guid(fcfeb51b26dbe9d4784f48e3f5bc2076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UI Toolkit using Guid(fcfeb51b26dbe9d4784f48e3f5bc2076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e22f32a897842c60490f4b46f869fc9') in 0.010817 seconds
+  Import took 0.016988 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003721 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.225 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 134.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3709.
+Total: 3.734700 ms (FindLiveObjects: 0.586500 ms CreateObjectMapping: 0.311300 ms MarkObjects: 2.799300 ms  DeleteObjects: 0.035600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.654050 seconds.
+  path: Assets/UI Toolkit/Sprites
+  artifactKey: Guid(ae8cfed588326234dbf3c02d734b1c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/Sprites using Guid(ae8cfed588326234dbf3c02d734b1c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0296a04095e449b1cb640c58d5e23e') in 0.017076 seconds
+  Import took 0.023887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.574846 seconds.
+  path: Assets/GameActions.cs
+  artifactKey: Guid(d98f8cdb0daa8a748aa39ed03c6322c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameActions.cs using Guid(d98f8cdb0daa8a748aa39ed03c6322c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957f05d7ef3b9eff5722758195333a73') in 0.018654 seconds
+  Import took 0.024813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.654108 seconds.
+  path: Assets/USS/ReduxApp.cs
+  artifactKey: Guid(732e338103f76b046baae6d18e95bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxApp.cs using Guid(732e338103f76b046baae6d18e95bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671734c6321c503b0d432eff49ea8a18') in 0.004032 seconds
+  Import took 0.011061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010859 seconds.
+  path: Assets/USS/ReduxApp.cs
+  artifactKey: Guid(732e338103f76b046baae6d18e95bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxApp.cs using Guid(732e338103f76b046baae6d18e95bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671734c6321c503b0d432eff49ea8a18') in 0.004161 seconds
+  Import took 0.010222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.456408 seconds.
+  path: Assets/GameState.cs
+  artifactKey: Guid(f599fb70fc1399a4ab6673c1b97d680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameState.cs using Guid(f599fb70fc1399a4ab6673c1b97d680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8095eb24585f22f4c44941f52ee0fe40') in 0.009068 seconds
+  Import took 0.015355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002686 seconds.
+  path: Assets/GameState.cs
+  artifactKey: Guid(f599fb70fc1399a4ab6673c1b97d680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameState.cs using Guid(f599fb70fc1399a4ab6673c1b97d680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8095eb24585f22f4c44941f52ee0fe40') in 0.006252 seconds
+  Import took 0.012760 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004069 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 134.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 3.780700 ms (FindLiveObjects: 0.414300 ms CreateObjectMapping: 0.256700 ms MarkObjects: 3.077700 ms  DeleteObjects: 0.030200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003662 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <0050475d167947ea9f166ad030caa84f>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <420b942f64794d4da66420603f126f7b>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <8c48e4bc2ff34638b69095cbb65e2e27>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 134.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3715.
+Total: 3.724600 ms (FindLiveObjects: 0.521100 ms CreateObjectMapping: 0.301600 ms MarkObjects: 2.873800 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.210128 seconds.
+  path: Assets/USS/ReduxCounter/ReduxApp.uxml
+  artifactKey: Guid(ba2c0f270e9c6ee4d8e1208a72425ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxCounter/ReduxApp.uxml using Guid(ba2c0f270e9c6ee4d8e1208a72425ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0546f447c3234f12aeb98de3ad0b69') in 0.038165 seconds
+  Import took 0.045157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078197 seconds.
+  path: Assets/USS/ReduxCounter/ReduxApp.uxml
+  artifactKey: Guid(ba2c0f270e9c6ee4d8e1208a72425ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USS/ReduxCounter/ReduxApp.uxml using Guid(ba2c0f270e9c6ee4d8e1208a72425ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0546f447c3234f12aeb98de3ad0b69') in 0.011699 seconds
+  Import took 0.018381 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
